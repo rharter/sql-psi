@@ -15,6 +15,7 @@
   ]
 }
 type_name ::= (
+  identity_data_type |
   tiny_int_data_type |
   small_int_data_type |
   int_data_type |
@@ -33,6 +34,7 @@ type_name ::= (
   override = true
 }
 
+identity_data_type ::= 'IDENTITY'
 tiny_int_data_type ::= 'TINYINT'
 small_int_data_type ::= 'SMALLINT'
 int_data_type ::= 'INTEGER' | 'INT'
